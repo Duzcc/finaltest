@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dice-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.dice {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.dice img {
+    width: 60px;
+    height: 60px;
+}
+
+.bet-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.bet {
+    text-align: center;
+}
+
+.bet img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.bet span {
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons .spin {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #3e8e41;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.buttons .reset {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #d32f2f;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.instructions {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+}
